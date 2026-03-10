@@ -58,6 +58,7 @@ def main():
     while (not isNum(num2)):
         num2 = input("Enter the first number: ")
     num2 = float(num2)
+    #Just some change
 
     operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
     while operation not in ("add","subtract","multiply","divide"):
